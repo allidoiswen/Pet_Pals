@@ -1,0 +1,11 @@
+# Create a new environment
+create -n pet_pals_env python=3.5
+
+# Add library
+pip install gunicorn
+pip install flask
+pip install flask-sqlalchemy
+
+# Using the sqllite to test your code locally
+python initdb.py
+
